@@ -5,10 +5,10 @@
 
 #define PIN_SERVO 10
 
-char ssid[] = "makitaseduroam";
-char pass[] = "inouelabpass";
-char host[] = "192.168.3.1";
-char topic[] = "AWS_IoT/actuater/servo";
+char ssid[] = "ssid";
+char pass[] = "pass";
+char host[] = "address";
+char topic[] = "topic";
 int port = 1883;
 
 WiFiClient wificlient;
